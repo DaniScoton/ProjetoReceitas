@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: Montserrat, sans-serif;
+    background: url(fundo\ branco.jpg);
+}
+
+header{
+    background: #f1b452;
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-principal{
+    width: 270px;
+}
+
+.botao{
+    text-decoration: none;
+    color: #426CB4;
+    font-weight: 600;
+    padding: 90px 0 0 10px;
+}
+
+.botao:hover{
+    color: #41911c;
+}
+
+.botao:active{
+    color: #426CB4;
+}
+
+main{
+    height: 450px;
+    vertical-align: top;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+    align-self: auto;
+}
+
+.titulo-principal{
+    font-size: 30px;
+    color: #426CB4;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.ingredientes{
+    width: 25%;
+    position: left;
+    padding: 120px 0 0 50px;
+    float: left;
+}
+
+.preparo{
+    width: 30%;
+    margin-top: 50px;
+    vertical-align: top;
+    float: left;
+    margin-left: 20px;
+}
+
+.itens{
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.itens:before{
+    content: "🍋";
+}
+
+.foto{
+    width: 400px;
+    display: inline;
+    display: flex;
+    padding: 100px 0 0 70px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #6583b8;
+    font-weight: bold;
+    color: #FF9F00;
+    display: flex;
+    justify-content: center;
+}
+
+.img-footer{
+    height: 40px;
+}
+
+.copy{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
