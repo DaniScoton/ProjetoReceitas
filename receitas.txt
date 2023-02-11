@@ -1,3 +1,0 @@
-#426CB4 azul
-#FF9F00 laranja
-#7BB062 verde
